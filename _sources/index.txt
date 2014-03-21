@@ -26,22 +26,27 @@ diffraction analysis and the study of the atomic structure of materials.
 
 .. include:: abbreviations.txt
 
-+----------------------------------------------------------------------+-----------------------------------------+
-|                                                                      |                                         |
-|                                                                      |                                         |
-|                                                                      |                                         |
-|                                                                      |                                         |
-|                                                                      +-----------------------------------------+
-|.. figure:: logos/CMI-logo.png                                        |.. include:: sidebar.rst                 |
-|    :width: 600                                                       |                                         |
-|    :align: center                                                    |                                         |
-|                                                                      |                                         |
-|                                                                      +-----------------------------------------+
-|                                                                      |                                         |
-|                                                                      |                                         |
-|                                                                      |                                         |
-|                                                                      |                                         |
-+----------------------------------------------------------------------+-----------------------------------------+
++-------------------------------------------+-----------------------------------------+
+|                                           |                                         |
+|                                           |                                         |
+|                                           |                                         |
+|                                           |                                         |
+|                                           +-----------------------------------------+
+|.. figure:: logos/CMI-logo.png             |.. include:: sidebar.rst                 |
+|    :width: 80%                            |                                         |
+|    :align: center                         |                                         |
+|                                           |                                         |
+|                                           +-----------------------------------------+
+|                                           |.. include:: logo.rst                    |
+|                                           |                                         |
+|                                           |                                         |
+|                                           |                                         |
+|                                           +-----------------------------------------+
+|                                           |                                         |
+|                                           |                                         |
+|                                           |                                         |
+|                                           |                                         |
++-------------------------------------------+-----------------------------------------+
 
 
 .. _danse: http://danse.us/
@@ -53,14 +58,6 @@ diffraction analysis and the study of the atomic structure of materials.
 .. _brookhaven national laboratory: http://www.bnl.gov/
 
 |
-
-.. figure:: logos/BNL_logo.jpg
-   :target: `Brookhaven National Laboratory`_
-   :align: left
-
-.. figure:: logos/DOE_logo.png
-   :target: `Department of Energy, Office of Basic Energy Sciences`_
-   :align: right
 
 .. toctree::
    :hidden:

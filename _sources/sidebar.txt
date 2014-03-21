@@ -1,3 +1,4 @@
+
 DiffPy is the home of the 
 `DiffPy-CMI <products/diffpycmi/index.html>`_
 Complex Modeling framework, a modular software framework for robust and extensible 
@@ -10,3 +11,12 @@ Many parts of the code were developed under the diffraction part of the DANSE_ p
 a software construction project funded by the `National Science Foundation`_ to provide 
 data analysis software tools for neutron scattering experiments.  This project was previously
 centered at Columbia University and, before that, Michigan State University.
+
+.. _danse: http://danse.us/
+
+.. _national science foundation: http://www.nsf.gov/
+
+.. _department of energy, office of basic energy sciences: http://science.energy.gov/bes/
+
+.. _brookhaven national laboratory: http://www.bnl.gov/
+
