@@ -24,26 +24,24 @@ DiffPy - Atomic Structure Analysis in Python
 A free and open source software project to provide python software for
 diffraction analysis and the study of the atomic structure of materials.
 
-
-.. figure:: logos/CMI-logo.png
-   :align: center
-
 .. include:: abbreviations.txt
 
-
-DiffPy is the home of the |DiffPyCMI|
-Complex Modeling framework, a modular software framework for robust and extensible 
-modeling of diffraction data.  We welcome contributions to this project from the 
-community.
-
-The project is currently centered at `Brookhaven National Laboratory`_, a US `Department of 
-Energy, Office of Basic Energy Sciences`_ funded laboratory. 
-Many parts of the code were developed under the diffraction part of the DANSE_ project,
-a software construction project funded by the `National Science Foundation`_ to provide 
-data analysis software tools for neutron scattering experiments.  This project was previously
-centered at Columbia University and, before that, Michigan State University.
-
-
++----------------------------------------------------------------------+-----------------------------------------+
+|                                                                      |                                         |
+|                                                                      |                                         |
+|                                                                      |                                         |
+|                                                                      |                                         |
+|                                                                      +-----------------------------------------+
+|.. figure:: logos/CMI-logo.png                                        |.. include:: sidebar.rst                 |
+|    :width: 600                                                       |                                         |
+|    :align: center                                                    |                                         |
+|                                                                      |                                         |
+|                                                                      +-----------------------------------------+
+|                                                                      |                                         |
+|                                                                      |                                         |
+|                                                                      |                                         |
+|                                                                      |                                         |
++----------------------------------------------------------------------+-----------------------------------------+
 
 
 .. _danse: http://danse.us/
@@ -57,12 +55,12 @@ centered at Columbia University and, before that, Michigan State University.
 |
 
 .. figure:: logos/BNL_logo.jpg
-   :align: left 
    :target: `Brookhaven National Laboratory`_
+   :align: left
 
 .. figure:: logos/DOE_logo.png
-   :align: right
    :target: `Department of Energy, Office of Basic Energy Sciences`_
+   :align: right
 
 .. toctree::
    :hidden:

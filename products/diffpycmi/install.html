@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 
@@ -118,24 +119,22 @@ suitable package manager (see below for a brief <a class="reference internal" hr
 <div class="line"><strong>Ubuntu</strong></div>
 </div>
 <p>For Ubuntu use <tt class="docutils literal"><span class="pre">apt-get</span></tt>:</p>
-<div class="highlight-python"><div class="highlight"><pre>sudo apt-get install \
+<div class="highlight-python"><pre>sudo apt-get install \
     libgsl0-dev libboost-all-dev python-dev \
     python-setuptools python-numpy python-scipy \
     python-matplotlib python-lxml ipython \
-    build-essential scons git zsh
-</pre></div>
+    build-essential scons git zsh</pre>
 </div>
 <div class="line-block">
 <div class="line"><strong>Fedora</strong></div>
 </div>
 <p>For Fedora use <tt class="docutils literal"><span class="pre">yum</span></tt>:</p>
-<div class="highlight-python"><div class="highlight"><pre>sudo yum install \
+<div class="highlight-python"><pre>sudo yum install \
     gsl-devel boost-devel python-devel
     python-setuptools numpy scipy  \
     python-matplotlib python-lxml \
     python-ipython-notebook \
-    gcc-c++ scons git zsh
-</pre></div>
+    gcc-c++ scons git zsh</pre>
 </div>
 <div class="line-block">
 <div class="line"><strong>Mac OS X</strong></div>
@@ -155,33 +154,28 @@ macports.  Please be patient.</li>
 <div class="line"><br /></div>
 </div>
 <p>For Mac OS X use <tt class="docutils literal"><span class="pre">macports</span></tt>:</p>
-<div class="highlight-python"><div class="highlight"><pre>sudo port install \
+<div class="highlight-python"><pre>sudo port install \
     python27 py27-setuptools py27-ipython py27-lxml \
-    gsl-devel boost py27-numpy py27-scipy py27-matplotlib scons git-core
-</pre></div>
+    gsl-devel boost py27-numpy py27-scipy py27-matplotlib scons git-core</pre>
 </div>
 <p>Make sure the macports versions of ipython and python are active by
 running the following commands:</p>
-<div class="highlight-python"><div class="highlight"><pre>sudo port select --set ipython ipython27
-sudo port select --set python python27
-</pre></div>
+<div class="highlight-python"><pre>sudo port select --set ipython ipython27
+sudo port select --set python python27</pre>
 </div>
 <p>Important: When finished installing the Mac OS X dependencies, adjust
 the shell environment so that MacPorts Python is the first in the
 PATH:</p>
-<div class="highlight-python"><div class="highlight"><pre>export PATH=/opt/local/bin:${PATH}
-</pre></div>
+<div class="highlight-python"><pre>export PATH=/opt/local/bin:${PATH}</pre>
 </div>
 </li>
 <li><p class="first">Unzip the DiffPy-CMI tarball into a directory of your choice:</p>
-<div class="highlight-python"><div class="highlight"><pre>tar xzf diffpy-version.tar.gz
-</pre></div>
+<div class="highlight-python"><pre>tar xzf diffpy-version.tar.gz</pre>
 </div>
 </li>
 <li><p class="first">To build the code from source execute the following command from
 within your <tt class="docutils literal"><span class="pre">diffpy-version</span></tt> directory:</p>
-<div class="highlight-python"><div class="highlight"><pre>./install
-</pre></div>
+<div class="highlight-python"><pre>./install</pre>
 </div>
 <p><strong>Note: for a Mac installation you must build from source.  For
 Unix/Linux it is optional.</strong></p>
@@ -192,23 +186,20 @@ directory for user files.</p>
 files, create it if it does not exist yet, and put a symbolic
 link to the diffpy-1.0.pth file inside this folder. This can be done
 by executing the following code from within your DiffPy-CMI directory:</p>
-<div class="highlight-python"><div class="highlight"><pre>D=&quot;$(python -c &#39;import site; print site.USER_SITE&#39;)&quot;
-mkdir -p &quot;$D&quot;
-ln -si $PWD/diffpy-1.0.pth &quot;$D&quot;/
-</pre></div>
+<div class="highlight-python"><pre>D="$(python -c 'import site; print site.USER_SITE')"
+mkdir -p "$D"
+ln -si $PWD/diffpy-1.0.pth "$D"/</pre>
 </div>
 <p>For a system-wide installation create symbolic link in the directory
 for system-wide Python packages. Again, the following code should be
 executed from within your DiffPy-CMI directory:</p>
-<div class="highlight-python"><div class="highlight"><pre>sudo ln -si $PWD/diffpy-1.0.pth /usr/local/lib/python2.7/dist-packages/
-</pre></div>
+<div class="highlight-python"><pre>sudo ln -si $PWD/diffpy-1.0.pth /usr/local/lib/python2.7/dist-packages/</pre>
 </div>
 <p>Note that it is essential to use a symbolic link.  Making a copy of the
 pth file will not work.</p>
 </li>
 <li><p class="first">Test the installation by running:</p>
-<div class="highlight-python"><div class="highlight"><pre>./runtests.sh
-</pre></div>
+<div class="highlight-python"><pre>./runtests.sh</pre>
 </div>
 </li>
 </ol>

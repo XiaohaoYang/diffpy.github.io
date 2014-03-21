@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 
@@ -112,34 +113,30 @@ installed using the system package manager using the commands shown
 below.</p>
 <blockquote>
 <div><p>For Ubuntu use <tt class="docutils literal"><span class="pre">apt-get</span></tt>:</p>
-<div class="highlight-python"><div class="highlight"><pre>sudo apt-get install \
+<div class="highlight-python"><pre>sudo apt-get install \
     libgsl0-dev libboost-all-dev python-dev \
     python-setuptools python-numpy python-scipy \
     python-matplotlib python-lxml ipython \
-    scons git zsh mercurial wget
-</pre></div>
+    scons git zsh mercurial wget</pre>
 </div>
 <p>For Fedora use <tt class="docutils literal"><span class="pre">yum</span></tt>:</p>
-<div class="highlight-python"><div class="highlight"><pre>sudo yum install \
+<div class="highlight-python"><pre>sudo yum install \
     gsl-devel boost-devel python-devel
     python-setuptools numpy scipy  \
     python-matplotlib python-lxml \
     python-ipython-notebook scons git zsh \
-    mercurial wget
-</pre></div>
+    mercurial wget</pre>
 </div>
 </div></blockquote>
 <p>The easiest way to update and recompile the latest sources is to use the
 installation script that was packaged with the release bundle.</p>
 <p>To update the codes:</p>
-<div class="highlight-python"><div class="highlight"><pre>./install --update[=steps]
-</pre></div>
+<div class="highlight-python"><pre>./install --update[=steps]</pre>
 </div>
 <p>This will perform all or selected software updates from online source repositories.
 Update steps are comma separated integers or ranges such as &#8216;1,3,5-6&#8217;.</p>
 <p>To rebuild the source code:</p>
-<div class="highlight-python"><div class="highlight"><pre>./install --build[=steps]
-</pre></div>
+<div class="highlight-python"><pre>./install --build[=steps]</pre>
 </div>
 <p>This will rebuild all or specified packages from sources in the src folder. In both
 cases, you could use option -n to display the build steps.</p>
